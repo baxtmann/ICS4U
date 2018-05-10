@@ -22,11 +22,12 @@ public class Java1b
 	for (int i = 1; i<= rating ; i++){
 	c.setTextColor(Color.red);
 	c.print("*");
-	
-	}
+		}
 
-	
-	
+	for (int i =rating; i<=9 ;i++){
+	c.setTextColor(Color.gray);
+	c.print("*");
+	}
 	// Place your program here.  'c' is the output console
     } // main method
 } // Java1b class
